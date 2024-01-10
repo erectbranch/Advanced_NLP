@@ -25,7 +25,7 @@
 
 | Generative Model | Discriminative Model |
 | :---: | :---: |
-| ![Generative](images/generative_vs_discriminative_1.png) | ![Discriminative](images/generative_vs_discriminative_2.png) |
+| ![Generative](https://github.com/erectbranch/Advanced_NLP/tree/master/lec02/images/generative_vs_discriminative_1.png) | ![Discriminative](https://github.com/erectbranch/Advanced_NLP/tree/master/lec02/images/generative_vs_discriminative_2.png) |
 | 입력 샘플 $X$ 를 생성한다. | 입력 $X$ 가 label $Y$ 일 확률을 반환한다. |
 | stand alone: $P(X)$ <br/> joint(label 존재): $P(X,Y)$ | conditional: $P(Y\|X)$ |
 
@@ -91,7 +91,9 @@ $$ P_{MLE}(x_i) = {{c_{train}(x_i)} \over {\sum_{\tilde{x}}c_{train}(\tilde{x})}
 
 참고로 unknown word 문제는, ${\lambda}_{unk}$ 계수를 추가하여, 두 가지 확률로 구성된 식으로 구성하여 보완할 수 있다.
 
-$$ P(x_i) = (1-{\lambda}_{unk}) * P_{MLE}(x_i) + {\lambda}_{unk} * P_{unk}(x_i) $$
+```math
+P(x_i) = (1-{\lambda}_{unk}) * P_{MLE}(x_i) + {\lambda}_{unk} * P_{unk}(x_i)
+```
 
 ---
 
@@ -163,7 +165,9 @@ $$ P(y|X; \theta) $$
 
   모델 성능이 좋을수록 작은 값을 가져야 하기 때문에, **negative log-likelihood**를 사용한다.
 
-$$ {\mathcal{L}}_{train} (\theta) = - \sum_{<X,y> \in D_{train}} \log {P(y| X; \theta)} $$
+```math
+{\mathcal{L}}_{train} (\theta) = - \sum_{<X,y> \in D_{train}} \log {P(y| X; \theta)}
+```
 
 - optimization
 
@@ -179,7 +183,9 @@ $$ {\mathcal{L}}_{train} (\theta) = - \sum_{<X,y> \in D_{train}} \log {P(y| X; \
 
 - score
 
-$$ s_{y|X} = {\theta}_y + \sum_{i=1}^{|X|}{\theta}_{y|x_i} $$
+```math
+s_{y|X} = {\theta}_y + \sum_{i=1}^{|X|}{\theta}_{y|x_i}
+```
 
 - score to probability (e.g. using sigmoid)
 
