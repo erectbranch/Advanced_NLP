@@ -25,7 +25,7 @@
 
 | Generative Model | Discriminative Model |
 | :---: | :---: |
-| ![Generative](https://github.com/erectbranch/Advanced_NLP/tree/master/lec02/images/generative_vs_discriminative_1.png) | ![Discriminative](https://github.com/erectbranch/Advanced_NLP/tree/master/lec02/images/generative_vs_discriminative_2.png) |
+| ![Generative](https://github.com/erectbranch/Advanced_NLP/blob/master/lec02/images/generative_vs_discriminative_1.png) | ![Discriminative](https://github.com/erectbranch/Advanced_NLP/blob/master/lec02/images/generative_vs_discriminative_2.png) |
 | 입력 샘플 $X$ 를 생성한다. | 입력 $X$ 가 label $Y$ 일 확률을 반환한다. |
 | stand alone: $P(X)$ <br/> joint(label 존재): $P(X,Y)$ | conditional: $P(Y\|X)$ |
 
