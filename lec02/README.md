@@ -258,7 +258,7 @@ $$ F_1 = {{2 \cdot \mathrm{prec} \cdot \mathrm{rec}} \over {\mathrm{prec} + \mat
 | Generative | **0.854** | **0.915** | 0.567 |
 | Discriminative | 0.853 | 0.902 | **0.570** |
 
-이러한 차이가 단순히 데이터셋에 따른 차이인지, 일관적인 추세인지 확인하기 위해서는, **statistical**(significance) **testing**이 필요하다.
+이러한 차이가 단순히 데이터셋에 따른 차이인지, 일관적인 추세인지 확인하기 위해서는, **statistical** **testing**(significance)이 필요하다.
 
 ---
 
