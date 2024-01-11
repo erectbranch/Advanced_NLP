@@ -18,6 +18,19 @@ Instructor : Graham Neubig(Associate Professor, Carnegie Mellon University),<br/
 
   > syntactic, semantic, discourse analysis 등 자연어 처리의 기초적인 개념을 이해하고, 관련된 최신 기법을 파악한다.
 
+
+</br>
+
+## 🚩 정리한 문서 목록
+
+### 📖 Basics of Natural Language Processing
+
+- [Generative, Discriminative Text Classfication](https://github.com/erectbranch/Advanced_NLP/tree/master/lec02)
+
+  > Generative Text Classification: Count-based Unigram Models, Bag-of-Words Generative Classifier(BoW) / Discriminative Text Classification: BOW Discriminative Classifier
+
+  > Evaluation: accuracy, precision, recall, F1 score, statistical testing
+
 </br>
 
 ## :mag: Schedule
