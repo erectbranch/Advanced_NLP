@@ -31,6 +31,14 @@ Instructor : Graham Neubig(Associate Professor, Carnegie Mellon University),<br/
 
   > Evaluation: accuracy, precision, recall, F1 score, statistical testing
 
+### 📖 Modeling
+
+- [Methods of Generation, Evaluation](https://github.com/erectbranch/Advanced_NLP/tree/master/lec05)
+
+  > Ancestral Sampling, Greedy Search, Beam Search
+
+  > Evaluation(Human Evaluation, BLEU Score, Embedding-based Metrics, Perplexity), Meta-Evaluation, Difficulties(bad model + big beam), Alternative Methods(worse search for better outputs, minimize Bayes risk, Train Better Models)
+
 </br>
 
 ## :mag: Schedule

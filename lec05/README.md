@@ -182,7 +182,7 @@ greedy search의 단점을 보완하기 위해, **beam search**는 k개의 후�
 
   입력 $X$ 와 label indicating style을 함께 전달한다. (e.g. polite, informal)
 
-  ![politeness control ex](images/controlled_polite.png)
+  ![politeness control ex](https://github.com/erectbranch/Advanced_NLP/blob/master/lec05/images/controlled_polite.png)
 
 - **personalization**
 
