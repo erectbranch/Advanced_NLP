@@ -39,6 +39,14 @@ Instructor : Graham Neubig(Associate Professor, Carnegie Mellon University),<br/
 
   > Evaluation(Human Evaluation, BLEU Score, Embedding-based Metrics, Perplexity), Meta-Evaluation, Difficulties(bad model + big beam), Alternative Methods(worse search for better outputs, minimize Bayes risk, Train Better Models)
 
+- [Attention, Transformer](https://github.com/erectbranch/Advanced_NLP/tree/master/lec06)
+
+  > Attention, Attention Score Functions(MLP, Bilinear, Dot Product, Scaled Dot Product), Self Attention, Multi-Head Attention
+
+  > Transformer: Transformer Architecture, Attention Tricks, Training Tricks, Masked Multi-Head Attention
+
+  > Extensions to Attention: Incorporating Markov Properties, Hard Attention, Monotonic Attention, Coverage, Bidirectional Training, Alignment Attention
+
 </br>
 
 ## :mag: Schedule
