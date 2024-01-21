@@ -31,7 +31,7 @@ Instructor : Graham Neubig(Associate Professor, Carnegie Mellon University),<br/
 
   > Evaluation: accuracy, precision, recall, F1 score, statistical testing
 
-### 📖 Modeling
+### 📐 Modeling
 
 - [Methods of Generation, Evaluation](https://github.com/erectbranch/Advanced_NLP/tree/master/lec05)
 
@@ -46,6 +46,14 @@ Instructor : Graham Neubig(Associate Professor, Carnegie Mellon University),<br/
   > Transformer: Transformer Architecture, Attention Tricks, Training Tricks, Masked Multi-Head Attention
 
   > Extensions to Attention: Incorporating Markov Properties, Hard Attention, Monotonic Attention, Coverage, Bidirectional Training, Alignment Attention
+
+### 📔 Representation
+
+- [Pre-training](https://github.com/erectbranch/Advanced_NLP/tree/master/lec07/summary01)
+
+  > Multi-task Learning: Standard, Pre-train and Fine-tune, Prompting
+
+  > Pre-trained LMs: BERT, RoBERTa, ELECTRA, XLNet, DeBERTa
 
 </br>
 

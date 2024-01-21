@@ -171,7 +171,9 @@ XLNet은 BERT와 동일한 모델을 사용하나, **보다 긴 context**를 포
 
   - 순서 집합( $Z$ ): 예를 들어, input sequence $[x_1, x_2, x_3, x_4]$ 의 순서는, $4!=24$ 개가 존재할 수 있다.
 
-$$ \mathrm{likelihood}: \mathbb{E}_{z \sim Z_T} [\prod_{t=1}^{T}p(x_{z_t}|x_{z<t})] $$
+```math
+\mathrm{likelihood}: \mathbb{E}_{z \sim Z_T} [\prod_{t=1}^{T}p(x_{z_t}|x_{z<t})]
+```
 
 - 데이터
 
