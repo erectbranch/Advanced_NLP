@@ -55,6 +55,12 @@ Instructor : Graham Neubig(Associate Professor, Carnegie Mellon University),<br/
 
   > Pre-trained LMs: BERT, RoBERTa, ELECTRA, XLNet, DeBERTa
 
+- [Pre-training Design Choices](https://github.com/erectbranch/Advanced_NLP/tree/master/lec07/summary01)
+
+  > Auto-regressive LMs for Generation/Prompting: GPT-2, GPT-3, PaLM, OPT, BLOOM
+
+  > Pre-training Pros and Cons, Design Choices(Data, Transform, Representation, Output), Scaling Law
+
 </br>
 
 ## :mag: Schedule
