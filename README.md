@@ -67,6 +67,12 @@ Instructor : Graham Neubig(Associate Professor, Carnegie Mellon University),<br/
 
   > parameter sharing(domain tag, adapter, regularization-based), task weighting(uniform, proportional, temperature-based, uncertainty-based)
 
+- [Prompt Engineering](https://github.com/erectbranch/Advanced_NLP/tree/master/lec09/summary01)
+
+  > Types of Prompts(filled, answered, prefix, cloze), Prompt Workflows, Pre-trained LM(MASS, BART, mBART, UNiLM, T5)
+
+  > Prompt Engineering: Cloze, Prefix, Hand-crafted, Automated(Prompt Mining, Prompt Parapharasing, Gradient-based Search, Prefix/Prompt Tuning)
+
 </br>
 
 ## :mag: Schedule
